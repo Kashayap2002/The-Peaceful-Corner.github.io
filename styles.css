@@ -159,7 +159,27 @@ body {
     animation-name: moveDown;
   }
 
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 24px;
+      margin-left: 0;
+    }
+  }
+  h2 {
+    font-size: 36px;
+  }
 
+  h2 {
+    font-size: 2em;
+  }
+  #text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+    
   
   
   
